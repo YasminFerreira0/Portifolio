@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Dinossauro</title>
+    <style>
+        body {
+            background-color: #f7f7f7;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #game-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game" width="600" height="150"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
