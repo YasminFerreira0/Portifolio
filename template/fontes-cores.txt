@@ -9,8 +9,8 @@ Oswald:
 
 
 		CORES
-	cabecalho #393E46
-	corpo #222831
-	azul #00ADB5
+	cabecalho #01012B
+	corpo #000000
+	azul - bordas #05D9E8
 	branco #EEEEEE
 
