@@ -14,6 +14,7 @@
     font-family: 'Wavefont', cursive;
     font-size: 3em;
     color: #ffffff;
+    user-select: none;
 }
 .fa_cabecalho{
     font-size: 2vw;
@@ -21,7 +22,7 @@
 }
 
 .inicio{
-    background-color: #000000;
+    background-color: #0b0b0b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +68,7 @@
 .dino {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #0000000c;
+    background-color: #00000000;
 }
 
 .dino iframe {
@@ -80,7 +81,7 @@
 /*sobre*/
 
 .sobre{
-    background-color: #000000;
+    background-color: #0b0b0b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,7 +108,7 @@
 }
 
 .skills{
-    background-color: #000000;
+    background-color: #0b0b0b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +141,7 @@
 /*projetos*/
 
 .projetos {
-    background-color: #000000;
+    background-color: #0b0b0b;
     display: flex;
     flex-direction: column;
     align-items: center;
