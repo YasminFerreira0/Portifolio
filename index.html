@@ -22,7 +22,13 @@
     <header class="cabecalho">
         <h1 class="logo">YASMIN FERREIRA</h1>
        
-        <i class="fa-solid fa-language fa_cabecalho" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-language fa_cabecalho" style="color: #ffffff;" id="language-button" onclick="toggleLanguageMenu()"></i>
+
+        <ul id="language-menu" class="language-list">
+            <li class="language-options" onclick="changeLanguage('english')">Inglês</li>
+            <li class="language-options" onclick="changeLanguage('portuguese')">Português</li>
+        </ul>
+
     </header>
 
     <body>
