@@ -25,17 +25,17 @@
         <i class="fa-solid fa-language fa_cabecalho" style="color: #ffffff;" id="language-button" onclick="toggleLanguageMenu()"></i>
 
         <ul id="language-menu" class="language-list">
-            <li class="language-options" onclick="changeLanguage('english')">Inglês</li>
-            <li class="language-options" onclick="changeLanguage('portuguese')">Português</li>
+            <li class="language-options" onclick="changeLanguage('en')" data-en="English" data-pt="Inglês">Inglês</li>
+            <li class="language-options" onclick="changeLanguage('pt')" data-en="Portuguese" data-pt="Português">Português</li>
         </ul>
 
     </header>
 
     <body>
         <section class="inicio">
-            <p class="texto_inicio">Olá, eu sou </p>
+            <p class="texto_inicio" data-en="Hello, i am" data-pt="Olá, eu sou ">Olá, eu sou</p>
             <h1 class="titulo_inicio">YASMIN FERREIRA</h1>
-            <p class="texto_inicio">Desenvolvedora Front-End</p>
+            <p class="texto_inicio" data-en="Front-End Developer" data-pt="Desenvolvedora Front-End">Desenvolvedora Front-End</p>
 
             <div class="btn_inicio">
                 <button class="btn" id="redirecionar" data-url="https://github.com/YasminFerreira0">Github<i class="fa-brands fa-github"></i></button>
@@ -49,12 +49,12 @@
 
         </section>
         <section class="sobre">
-            <h3 class="titulo">SOBRE MIM</h3>
-            <p class="texto">Meu nome é Yasmin e sou uma desenvolvedora web. Descobri o mundo da programação em 2019, quando decidi seguir esta profissão. Desde então, tenho concluído diversos cursos com certificados e atualmente estou cursando a faculdade de Engenharia de Software.</p>
+            <h3 class="titulo" data-en="ABOUT ME" data-pt="SOBRE MIM">SOBRE MIM</h3>
+            <p class="texto" data-en="My name is Yasmin and i am a Web Developer. I discovered world of programming in 2019, when I decided to pursue this profession. Since then, I have completed several courses with certificates and am currently studying Software Engineering at college." data-pt="Meu nome é Yasmin e sou uma desenvolvedora web. Descobri o mundo da programação em 2019, quando decidi seguir esta profissão. Desde então, tenho concluído diversos cursos com certificados e atualmente estou cursando a faculdade de Engenharia de Software.">Meu nome é Yasmin e sou uma desenvolvedora web. Descobri o mundo da programação em 2019, quando decidi seguir esta profissão. Desde então, tenho concluído diversos cursos com certificados e atualmente estou cursando a faculdade de Engenharia de Software.</p>
         </section>
 
         <section class="skills">
-            <h3 class="titulo">HABILIDADES</h3>
+            <h3 class="titulo" data-en="SKILLS" data-pt="HABILIDADES">HABILIDADES</h3>
             <ul class="lista_skills">
                 <li class="item_skills">
                     <img class="img_skills" src="./imgs/html.png" alt="html">
@@ -76,62 +76,62 @@
         </section>
 
         <section class="projetos">
-            <h3 class="titulo">Projetos</h3>
+            <h3 class="titulo" data-en="PROJECTS" data-pt="PROJETOS">PROJETOS</h3>
             <ul class="projeto_container">
 
                 <li class="projeto_item">
                     <img class="proj_img proj_img-fylo" src="./imgs/fylo-logo.png" alt="Fylo">
                     <h4 class="proj_titulo">Fylo landing Page</h4>        
-                    <p class="proj_texto">Landing Page com layout de duas colunas.</p>
+                    <p class="proj_texto" data-en="Landing Page with two-column layout." data-pt="Landing Page com layout de duas colunas.">Landing Page com layout de duas colunas.</p>
                     <div class="projeto_item-links">  
-                        <button class="proj_btn">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-                        <a href="" class="proj_link">Visitar Codigo</a>
+                        <button class="proj_btn" data-en="Visit Website" data-pt="Visitar Site">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                        <a href="" class="proj_link" data-en="Visit Code" data-pt="Visitar Codigo">Visitar Codigo</a>
                     </div>
                 </li>
 
                 <li class="projeto_item">
                     <img class="proj_img" src="./imgs/microfone.png" alt="microfone">
-                    <h4 class="proj_titulo">Numero Secreto</h4>
-                    <p class="proj_texto">Um website de fácil navegação integrado à Web Speech API para reconhecimento de voz.</p>
+                    <h4 class="proj_titulo" data-en="Secret number" data-pt="Numero Secreto">Numero Secreto</h4>
+                    <p class="proj_texto" data-en="An easy-to-navigate website integrated with the Web Speech API for speech recognition." data-pt="Um website de fácil navegação integrado à Web Speech API para reconhecimento de voz.">Um website de fácil navegação integrado à Web Speech API para reconhecimento de voz.</p>
                     <div class="projeto_item-links">  
-                        <button class="proj_btn">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-                        <a href="" class="proj_link">Visitar Codigo</a>
+                        <button class="proj_btn" data-en="Visit Website" data-pt="Visitar Site">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                        <a href="" class="proj_link" data-en="Visit Code" data-pt="Visitar Codigo">Visitar Codigo</a>
                     </div>
                 </li>
                 <li class="projeto_item">
                     <img class="proj_img" src="./imgs/mochila.png" alt="mochila">
-                    <h4 class="proj_titulo">Mochila de Viajem</h4>
-                    <p class="proj_texto">Um site que posibilita armazenando dados no navegador criando lista de itens.</p>
+                    <h4 class="proj_titulo" data-en="Travel Backpack" data-pt="Mochila de Viajem">Mochila de Viajem</h4>
+                    <p class="proj_texto" data-en="A website that allows storing data in the browser by creating a list of items." data-pt="Um site que posibilita armazenando dados no navegador criando lista de itens.">Um site que posibilita armazenando dados no navegador criando lista de itens.</p>
                     <div class="projeto_item-links">  
-                        <button class="proj_btn">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-                        <a href="" class="proj_link">Visitar Codigo</a>
+                        <button class="proj_btn" data-en="Visit Website" data-pt="Visitar Site">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                        <a href="" class="proj_link" data-en="Visit Code" data-pt="Visitar Codigo">Visitar Codigo</a>
                     </div>
                 </li>
                 <li class="projeto_item">
                     <img class="proj_img proj_img-robo" src="./imgs/robotron.png" alt="Robo">
                     <h4 class="proj_titulo">Robotron 2000</h4>
-                    <p class="proj_texto">Site possibilita modficar e customizar o robo.</p>
+                    <p class="proj_texto" data-en="The website offers the ability to customize and change robot settings." data-pt="O site oferece a capacidade de personalizar e alterar as configurações do robô.">O site oferece a capacidade de personalizar e alterar as configurações do robô.</p>
                     <div class="projeto_item-links">  
-                        <button class="proj_btn">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-                        <a href="" class="proj_link">Visitar Codigo</a>
+                        <button class="proj_btn" data-en="Visit Website" data-pt="Visitar Site">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                        <a href="" class="proj_link" data-en="Visit Code" data-pt="Visitar Codigo">Visitar Codigo</a>
                     </div>
                 </li>
                 <li class="projeto_item">
                     <img class="proj_img" src="./imgs/logo-alurabook.png" alt="AluraBook">
                     <h4 class="proj_titulo">Alura Books</h4>
-                    <p class="proj_texto">Pagina de comercio eletronico.</p>
+                    <p class="proj_texto" data-en="E-commerce page." data-pt="Pagina de comercio eletronico.">Pagina de comercio eletronico.</p>
                     <div class="projeto_item-links">  
-                        <button class="proj_btn">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-                        <a href="" class="proj_link">Visitar Codigo</a>
+                        <button class="proj_btn" data-en="Visit Website" data-pt="Visitar Site">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                        <a href="" class="proj_link" data-en="Visit Code" data-pt="Visitar Codigo">Visitar Codigo</a>
                     </div>
                 </li>
                 <li class="projeto_item">
                     <img class="proj_img" src="./imgs/logo-alurabook.png" alt="AluraBook">
                     <h4 class="proj_titulo">Alura Books</h4>
-                    <p class="proj_texto">Formulario de cadrastro, consumindo dados de uma API de consulta de CEPs ViaCEP.</p>
+                    <p class="proj_texto" data-en="Registration form, consuming data from a ViaCEP CEP query API." data-pt="Formulario de cadrastro, consumindo dados de uma API de consulta de CEPs ViaCEP.">Formulario de cadrastro, consumindo dados de uma API de consulta de CEPs ViaCEP.</p>
                     <div class="projeto_item-links">  
-                        <button class="proj_btn">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-                        <a href="" class="proj_link">Visitar Codigo</a>
+                        <button class="proj_btn" data-en="Visit Website" data-pt="Visitar Site">Visitar Site <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                        <a href="" class="proj_link" data-en="Visit Code" data-pt="Visitar Codigo">Visitar Codigo</a>
                     </div>
                 </li>
             </ul>
@@ -141,8 +141,8 @@
     <script src="./main.js"></script>
     </body>
     <footer class="rodape">
-        <a class="rodape_link" href="">Entre me contado</a>
-        <p class="rodape_texto"><i class="fa-regular fa-copyright"></i>2023 Yasmin Ferreira</p>
+        <a class="rodape_link" href="" data-en="Come in and tell me" data-pt="Entre me contado">Entre me contado</a>
+        <p class="rodape_texto"><i class="fa-regular fa-copyright"></i> 2023 Yasmin Ferreira</p>
         
     </footer>
 </body>
