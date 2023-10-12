@@ -112,7 +112,7 @@
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #00000000;
-    box-shadow:  0 0 0.3em rgba(68, 68, 68, 0.689), 0 0 0.3em rgba(68, 68, 68, 0.689);
+    box-shadow:  0 0 0.3em rgba(68, 68, 68, 0.250), 0 0 0.3em rgba(68, 68, 68, 0.250);
     margin-top: 5vw;
 }
 
@@ -140,7 +140,7 @@
     font-size: 3em;
     font-weight: 700;
     text-shadow: 0 0 0.2em #0097b2a5, 0 0 0.2em #0097b2a5;
-
+    user-select: none;
 }
 
 .texto{
@@ -150,6 +150,7 @@
     font-weight: 400;
     text-align: center;
     padding: 2vw 8vw;
+    user-select: none;
 }
 
 .skills{
@@ -180,6 +181,7 @@
     font-weight: 400;
     text-align: center;
     padding: 1.5vw 0 ;
+    user-select: none;
 }
 
 
@@ -230,6 +232,7 @@
     font-size: 2em;
     font-weight: 700;
     text-align: center;
+    user-select: none;
 }
 
 .proj_texto {
@@ -239,14 +242,18 @@
     font-weight: 400;
     text-align: center;
     padding: 0 20px;
+    user-select: none;
 }
 
 .proj_btn{
     border: 2px solid #C4FFFF;
+    border-radius: 15px;
     color: #EEEEEE;
-    padding: 10px 20px;
+    font-size: 1em;
+    padding: 12px 25px;
     background-color: #000000;
     margin: 2vw 0;
+    cursor: pointer;
 }
 
 .proj_btn-texto{
@@ -255,13 +262,28 @@
     gap: 5px;
 }
 
+.proj_btn:hover{
+    text-shadow: 0 0 0.3em rgb(255, 255, 255, 0.689), 0 0 0.3em rgba(255, 255, 255, 0.689);
+    box-shadow: 0 0 0.3em #ffffff5a, 0 0 0.3em #ffffff5a;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .proj_link {
     font-family: 'Oswald', sans-serif;
     font-size: 1em;
     font-weight: 400;
     text-align: center;
     color: #E80586;
+    text-decoration: none;
 }
+
+.proj_link:hover{
+    text-shadow: 0 0 0.3em #e8058695, 0 0 0.3em #E8058695;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 
 /*rodape*/
 .rodape{
@@ -269,16 +291,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
     background-color: #01012B;
-    padding: 10px 5vw 10px 5vw;
+    padding: 10px 5vw 0px 5vw;
 }
-.rodape_link {
+.rodape_email{
     font-family: 'Oswald', sans-serif;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
-    color: #E80586;
+    color: #00b7c4;
+    user-select: none;
 }
 .rodape_texto {
     font-family: 'Oswald', sans-serif;
@@ -286,5 +308,6 @@
     font-size: 0.8em;
     font-weight: 400;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 20px 5px 20px;
+    user-select: none;
 }
